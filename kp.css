@@ -101,7 +101,18 @@
   .mode_grid .user_game_grid .game_cell {
       width: 261px;
       height: 24em;
+      animation: pop 3s alternate infinite ease-in-out;
   }
+
+  @keyframes pop {
+      0% {
+        transform: translate(0,-2px) scale(0.998);
+      }
+      100% {
+        transform: translate(0,2px) scale(1.01);
+      }
+  }
+
   .game_grid_widget .game_cell .game_title a.title {
       background-color: #083e08c4;
       color: #d2dfd6;
@@ -198,3 +209,8 @@
       color: #100d0d;
       border-color: #140f10;
   }
+
+
+
+
+
