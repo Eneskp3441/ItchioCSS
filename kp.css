@@ -1,0 +1,170 @@
+* {
+    cursor :url("https://i.hizliresim.com/ofx1tc2.png"), auto;
+  }
+  .game_thumb {
+     transition : .1s;
+  }
+  .game_thumb:hover {
+      transform : scale(.95);
+      
+  }
+  body {
+      background-image: url(https://i.hizliresim.com/m4u4q7g.png);
+      background-repeat: repeat;
+      width: 100%;
+      margin: 0;
+      height: 100vh;
+      box-sizing: border-box;
+      animation-name: animate;
+      animation-duration: 500s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      background-size: 256px;
+  }
+  @keyframes animate {
+      from {
+        background-position : -9999px -9999px;
+      }
+      to  {
+        backgorund-position : 9999px 9999px;
+      }
+  }
+  .user_page a{
+         text-decoration-line: none;
+  text-align: center;
+  }
+  .user_links {
+  text-align : center;
+  }
+  .game_grid_widget .game_cell {
+  background-image: url(https://i.hizliresim.com/7k58cdz.png);
+      background-clip: border-box;
+      background-size: cover;
+      padding: 32px;
+      background-repeat: no-repeat;
+  
+  }
+  .game_title {
+       margin-top: 32px;
+  }
+  .user_page .purchased_games h2 a, .user_page .collection_row h2 a {
+      text-decoration: none;
+      display: block;
+      padding: 3% 0 3%;
+      font-size: 3.5em;
+      transition: .2s;
+      background-image: url(https://i.hizliresim.com/av2nw74.png);
+      background-clip: border-box;
+      background-size: contain;
+      background-repeat: repeat-x;
+  }
+  .user_page .purchased_games h2 a, .user_page .collection_row:hover h2 a{
+  /*transform: matrix(1, 0, .1, 1, 0, 0);*/
+  }
+  
+  .inner_column {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .game_grid_widget.game_list .game_cell {
+      width: 256px;
+      height: 22em;
+    
+  }
+  .game_grid_widget.game_list .game_cell .game_thumb {
+      width: 256px;
+      height: 200px;
+  }
+  .user_page .purchased_games .carousel_wrapper .game_list, .user_page .collection_row .carousel_wrapper .game_list {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+  }
+  * {
+      scrollbar-width: auto;
+      scrollbar-color: #61dd5f #ffffff;
+    }
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 16px;
+    }
+    *::-webkit-scrollbar-track {
+      background: #1a5a2e;
+    }
+    *::-webkit-scrollbar-thumb {
+      background-color: #61dd5f;
+      border-radius: 10px;
+      border: 3px none #ffffff;
+    }
+  .mode_grid .user_game_grid .game_cell {
+      width: 261px;
+      height: 24em;
+  }
+  .game_grid_widget .game_cell .game_title a.title {
+      background-color: #083e08c4;
+      color: #d2dfd6;
+      display: flex;
+      border-radius: 8px;
+      border: #d2dfd6 2px solid;
+      padding: 5px;
+      transition: .3s;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title { 
+    background-color: #169f16c4;
+  }
+  /* BU PEYNİR FARESİ */
+  [class="game_cell has_cover"][data-game_id="1399192"] {
+   background-image: url(https://i.hizliresim.com/flbdp2p.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:1399192:title"] {
+      background-color: #ffea2b;
+      color: #936a2e;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:1399192:title"] {
+      background-color: #fff385;
+      color: #936a2e;
+  }
+  /* BU FARKLI BİRİ */
+  [class="game_cell has_cover"][data-game_id="1411184"] {
+   background-image: url(https://i.hizliresim.com/9m8m4rx.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:1411184:title"] {
+     background-color: #ffffff;
+      color: #000000;
+      border-color: BLACK;;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:1411184:title"] {
+      background-color: BLACK;
+      color: #ffffff;
+      border-color: #ffffff;
+  }
+  /* BU COFFE STAIN*/
+  [class="game_cell has_cover"][data-game_id="1193875"] {
+   background-image: url(https://i.hizliresim.com/d3whb3z.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:1193875:title"] {
+     background-color: #583722;
+      color: #dbcccc;
+      border-color: #cc8a4b;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:1193875:title"] {
+      background-color: #451d05;
+      color: #dbcccc;
+      border-color: #cc8a4b;
+  }
+  /* BU IMLEC */
+  [class="game_cell has_cover"][data-game_id="1121814"] {
+   background-image: url(https://i.hizliresim.com/h07z1vx.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:1121814:title"] {
+     background-color: #59aac9;
+      color: #172529;
+      border-color: #53767b;;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:1121814:title"] {
+      background-color: #234a58;
+      color: #59aac9;
+      border-color: #53767b;
+  }
