@@ -107,7 +107,7 @@
       color: #d2dfd6;
       display: flex;
       border-radius: 8px;
-      border: #d2dfd6 2px solid;
+      border: #d2dfd6 4px solid;
       padding: 5px;
       transition: .3s;
   }
@@ -167,4 +167,34 @@
       background-color: #234a58;
       color: #59aac9;
       border-color: #53767b;
+  }
+
+  /* BU SÜTÜ BOZUK */
+  [class="game_cell has_cover"][data-game_id="1071304"] {
+   background-image: url(https://i.hizliresim.com/6kivz4b.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:1071304:title"] {
+    background-color: #3bb663;
+    color: #1b483b;
+    border-color: #c9e5f7;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:1071304:title"] {
+      background-color: #ffb15f;
+      color: #824234;
+      border-color: #7a0100;
+  }
+
+  /* BU LNETLİ KEDİLERE ULAŞ */
+  [class="game_cell has_cover"][data-game_id="921194"] {
+   background-image: url(https://i.hizliresim.com/6kivz4b.png);
+  }
+  .game_grid_widget .game_cell .game_title a.title[data-label="game:921194:title"] {
+    background-color: #120e0e;
+    color: #9f8989;
+    border-color: eeceae ;
+  }
+  .game_grid_widget .game_cell:hover .game_title a.title[data-label="game:921194:title"] {
+      background-color: #948080;
+      color: #100d0d;
+      border-color: #140f10;
   }
