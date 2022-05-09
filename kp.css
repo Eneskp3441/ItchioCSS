@@ -211,6 +211,26 @@
   }
 
 
+  .user_page .header .image_header img {
+    max-height: 1024px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
+
+.mode_grid .user_game_grid {
+  --itchio_grid_gap: 128px;
+  grid-template-columns: repeat(3, 271px);
+  justify-content: center;
+}
+
+.user_page .purchased_games .carousel_wrapper .game_list, .user_page .collection_row .carousel_wrapper .game_list {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  justify-content: center;
+}
 
